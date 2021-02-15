@@ -27,7 +27,7 @@ export const filterDataByOwnerAndPetName = (data,query) =>{
 
     //check pet name
     const matchPetName = (pets) => {
-      (pets && pets.some(pet => pet.name.toLowerCase().indexOf(queryString) !== -1))
+      return (pets && pets.some(pet => pet.name.toLowerCase().indexOf(queryString) !== -1))
     };
 
     return data.filter((item) => {
