@@ -19,6 +19,9 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+### `yarn test`
+Run unit testing
+
 ####These are the settings if we want to use the endpoint I build by my self
 ####Please see /backend folder
 REACT_APP_END_POINT_SYDNEY = https://happybuba.com.au/api/Sydney.php
