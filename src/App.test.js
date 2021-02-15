@@ -2,7 +2,7 @@ import { render, screen,fireEvent ,waitFor} from '@testing-library/react';
 import App from './App';
 
 test('app able to find record by pet name', async () => {
-  //it shoukd return garfield
+  //it should return garfield
   render(<App />);
   const searchField = screen.getByPlaceholderText(/Type name of pets or the owner/i);
   const submitButton = screen.getByText(/Go!/i)
