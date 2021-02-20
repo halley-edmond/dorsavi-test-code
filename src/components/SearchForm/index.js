@@ -44,13 +44,13 @@ export default function SearchForm(){
           <div className={"form-group row"}>
             <div className={"col-12"}><h6>Filter By:</h6></div>
             <div className={"col-4"}>
-              <DropdownField label={"City"} fieldRef={filterCityFieldRef} data={CITY_OPTIONS} />
+              <DropdownField label={"City"} name={"city"} fieldRef={filterCityFieldRef} data={CITY_OPTIONS} />
             </div>
             <div className={"col-4"}>
-              <DropdownField label={"Gender"} fieldRef={filterGenderRef} data={GENDER_OPTIONS} />
+              <DropdownField label={"Gender"} name={"gender"} fieldRef={filterGenderRef} data={GENDER_OPTIONS} />
             </div>
             <div className={"col-4"}>
-              <DropdownField label={"Pet Type"} fieldRef={filterPetTypeRef} data={PET_TYPE} />
+              <DropdownField label={"Pet Type"} name={"pet-type"} fieldRef={filterPetTypeRef} data={PET_TYPE} />
             </div>
           </div>
           <Button>Go!</Button>
